@@ -1,0 +1,133 @@
+/* clip-path: polygon(71% 0, 46% 12%, 68% 31%, 36% 34%, 37% 65%, 12% 41%, 1% 68%, 0 0); */
+/* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+    box-sizing: border-box;
+}
+/* navbar */
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-empty{
+    background-color: rgb(56, 56, 180);
+    width: 100%;
+    height: 25px;
+}
+.navbar{
+    width: 60%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 500px;
+}
+.navbar p{
+    cursor: not-allowed;
+    color: blue;
+}
+#open{
+    cursor: pointer;
+
+}
+#open a{
+    text-decoration: none;
+    color: blue;
+}
+/* Task 1 */
+.empty{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(245, 245, 245);
+}
+.main_div1 {
+  
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main_img {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  height: 150px;
+  transition: .5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.main_img:hover{
+    border-right: 5px solid rgb(48, 48, 233);
+}
+.main_img img {
+clip-path: polygon(78% 0, 51% 18%, 75% 39%, 40% 45%, 42% 80%, 13% 57%, 0 89%, 0 0);
+
+}
+.main_div2{
+    width: 50%;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.main_text{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+ transition: .3s;
+ transform: scale(0.95);
+}
+.main_text:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+transform: scale(1);
+}
+/* task two */
+.header{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 10%;
+}
+.header_icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+}
+.header_icon{
+    width: 10%;
+    height: 200px;
+    padding: 40px 0;
+}
+.header_icon img{
+    width: 100%;
+    height: 80%;
+    transition: .4s;
+    filter: grayscale(1);
+    filter: opacity(0.5);
+}
+.header_icon img:hover {
+    filter: grayscale(0);
+    filter: opacity(1);
+}
+

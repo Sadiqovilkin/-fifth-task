@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+    box-sizing: border-box;
+}
+/* navbar */
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-empty{
+    background-color: rgb(56, 56, 180);
+    width: 100%;
+    height: 25px;
+}
+.navbar{
+    width: 60%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 500px;
+}
+.navbar p{
+    cursor: not-allowed;
+    color: blue;
+}
+#open{
+    cursor: pointer;
+
+}
+#open a{
+    text-decoration: none;
+    color: blue;
+}
+/* Form */
+.foot{
+width: 100%;
+background-color: rgb(245, 245, 245);
+}
+.forms{
+width: 80%;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 300px;
+border: 1px solid blue;
+margin-left: 125px;
+padding-top: 20px;
+}
+.form1{
+
+width: 28%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.form1 input{
+    width: 100%;
+
+}
+.form2{
+    
+    width: 28%;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.form2 input{
+    width: 100%;
+}
+.form3{
+    
+    width: 28%;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.form3 input[type="text"]{
+    width: 100%;
+}
+.form3 input[type="email"]{
+    width: 100%;
+}
+.forms select{
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 5px;
+}
+.forms input{
+padding: 10px 2px;
+border-radius: 5px;
+}
+.form4{
+    width: 80%;
+    margin-left: 125px;
+    background-color: white;
+}
+.form5{
+    width: 80%;
+    margin-left: 125px;
+    background-color: white;
+    margin-top: 10px;
+    height: 60px;
+}
+.form5  button{
+    background-color: rgb(42, 165, 42);
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+.empty{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+}
